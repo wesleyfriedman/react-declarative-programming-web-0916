@@ -16,6 +16,12 @@ fashion along the wall. We'd be telling the painter exactly what to do. In a dec
 painter _'Paint these walls in this color'_, and he'd get it done. Why? Because the painter knows what to do! We don't
 need to tell him how to do his job.
 
+For a more realistic example, let's say we have some kind of search component that allows us to filter a list of
+results. When the input updates, we filter the list data and then display the updated results in our component. In
+React, we just tell it what we want the component to look like (i.e. display these items that have been filtered),
+whereas in a non-declarative application, we'd have to slog through manually updating our DOM — removing the results
+that are not relevant anymore, and adding the new ones to the list.
+
 Doesn't a declarative world sound nice? It does to me! No more bossing around and micromanaging everything: everyone
 would know what their job is, and do it correctly. Ahh, utopian dreams! While it seems impossible to do this in real
 life, at least we can do it in our code!
