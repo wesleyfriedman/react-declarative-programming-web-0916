@@ -1,5 +1,9 @@
 # React Declarative Programming
 
+## Overview 
+
+In this lesson, we'll discuss the concept of declarative programming. \
+
 ## Objectives
 1. Explain the difference between declarative and imperative programming
 2. Describe the benefits of declarative programming with respect to React
